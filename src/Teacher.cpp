@@ -4,12 +4,13 @@ using namespace std;
 class Teacher{
     private: 
         string name; 
-        int age; 
-}; 
-
-void helloworld(){
-    cout<<"this hello world function "<<endl; 
-}
+        string age; 
+    public: 
+        Teacher(string name, int age){
+            this-> name = name; 
+            this-> age = age; 
+        }
+};
 int main(){
     system("clear"); 
 
