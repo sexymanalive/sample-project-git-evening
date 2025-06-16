@@ -20,7 +20,17 @@ git add .
 git commit -m "" 
 
 git commit -am ""
-
 git branch development 
+
+
+
+# if you dun want to apply changes to new file 
+git stash 
+git stash list # all the stash 
+git stash pop # unstash latest stash 
+
+
+git pull origin branch-name
+git pull 
 
 ```
