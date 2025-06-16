@@ -16,7 +16,10 @@ gh repo create sample-project-git-evening --public
 
 # master ( store the latest version )
 # git branching strategies 
+git add . 
+git commit -m "" 
 
+git commit -am ""
 
 git branch development 
 
